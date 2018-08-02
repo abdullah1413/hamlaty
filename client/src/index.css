@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Login-center {
+  text-align: center
+}
+
+.Center-button {
+  margin-left: 41%;
+}
+
+.TopNav-img {
+  background-size: contain;
+}
+
+.SelectOptions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
