@@ -5,6 +5,7 @@ import Login from './Login';
 import Signup from './Signup';
 import Layout from './Layout';
 import SelectOptions from './SelectOptions';
+import QR from './QR';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
             <Route path="/select" component={SelectOptions} />
+            <Route path="/qr" component={QR} />
           </Switch>
         </Router>
       </Fragment>
