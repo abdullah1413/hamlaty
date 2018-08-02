@@ -7,7 +7,7 @@ export default class TopNav extends Component {
    background: `url(${topNavBar})`
   }
   return (
-   <img className="TopNav-img" src={topNavBar} alt=""/>
+   <img className="TopNav-img img-responsive" src={topNavBar} alt=""/>
   )
  }
 }
