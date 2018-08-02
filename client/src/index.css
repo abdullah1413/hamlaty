@@ -37,13 +37,18 @@ body {
 }
 
 .homepage {
-  min-height: 400px;
+  min-height: 288px;
   background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/icons/homeIcone.jpg");
+}
+
+.qr-height {
+  min-height: 516px;
 }
 
 .icons {
   background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/icons/homeIcon_secondHalf.jpg");
   padding: 10px;
+  height: 161px;
 }
 
 .icons img {
@@ -63,4 +68,15 @@ body {
 .btnhome img {
   margin: 132px 0 0 0;
   width: 267px;
+}
+
+.backgroundImage {
+  background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/background.jpg");
+}
+
+.footer {
+  width: 100%;
+  height: 78px;
+  background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/footer.jpg");
+  background-size: 100% 100%;
 }
