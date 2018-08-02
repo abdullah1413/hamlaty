@@ -13,6 +13,7 @@ body {
 }
 
 .TopNav-img {
+  width: 100%;
   background-size: contain;
 }
 
@@ -25,4 +26,41 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.Home {
+  display: flex;
+}
+
+.Home-img {
+  border-radius: 50%;
+}
+
+.homepage {
+  min-height: 400px;
+  background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/icons/homeIcone.jpg");
+}
+
+.icons {
+  background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/icons/homeIcon_secondHalf.jpg");
+  padding: 10px;
+}
+
+.icons img {
+  margin-right: 61px;
+  width: 77px;
+}
+
+.icons img:last-child {
+  margin-right: 0px;
+}
+
+.btnhome {
+  text-align: center;
+  width: 100%;
+}
+
+.btnhome img {
+  margin: 132px 0 0 0;
+  width: 267px;
 }
