@@ -10,6 +10,7 @@ body {
 
 .Center-button {
   margin-left: 41%;
+  padding-bottom: 5px;
 }
 
 .TopNav-img {
@@ -36,13 +37,26 @@ body {
   border-radius: 50%;
 }
 
+.QR-container {
+  display: flex;
+  align-content: center;
+}
+
+.QR {
+  margin: 148px 0px 0px 73px;
+}
+
 .homepage {
   min-height: 288px;
   background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/icons/homeIcone.jpg");
 }
 
 .qr-height {
-  min-height: 516px;
+  min-height: 561px
+}
+
+.login-height {
+  min-height: 561px
 }
 
 .icons {
@@ -70,13 +84,58 @@ body {
   width: 267px;
 }
 
+.Login {
+  display: flex;
+  align-content: center;
+}
+
+.Login-form {
+  width: 192px;
+  margin: 0px 0px 0px 103px;
+}
+
+.form-group input {
+  width: 138px;
+}
+
+.Login-continer {
+  display: flex;
+}
+
+.Login-img {
+  width: 184px;
+}
+
+.Login-btn {
+  display: flex;
+  width: 184px;
+}
+
 .backgroundImage {
   background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/background.jpg");
 }
 
+.Signup-input {
+  width: 202px
+}
+
+.Signup-container {
+  margin-left: 130px;
+}
+
+.Signup-img {
+  width: 167px;
+  margin: 19px 0px 0px 0;
+}
+
+.QR-img {
+  width: 167px;
+  margin: 19px 0px 0px 23px
+}
+
 .footer {
-  width: 100%;
-  height: 78px;
+  width: 375px;
+  height: 50px;
   background: url("C:/Users/Ahmed/Desktop/hamlaty/client/src/images/footer.jpg");
   background-size: 100% 100%;
 }

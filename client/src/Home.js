@@ -16,21 +16,25 @@ export default class Home extends Component {
  handleClickQrCode = () => {
   this.props.history.push('/qr');
  }
+
+ handleClickLogin = () => {
+  this.props.history.push('/login');
+ }
  render() {
   return (
    <Fragment>
-    <div class="homepage">
+    <div className="homepage">
      <div className="btnhome">
       <img onClick={this.handleClickSignup} src={signup} className="" alt="Cinque Terre" />
      </div>
     </div>
-    <div class="icons">
+    <div className="icons">
      <img onClick={this.handleClickQrCode} src={qrCodeIcon} className="Home-img" alt="Cinque Terre" />
      <img src={lostIcon} className="Home-img" alt="Cinque Terre" />
-     <img src={loginIcon} className="Home-img" alt="Cinque Terre" />
+     <img onClick={this.handleClickLogin} src={loginIcon} className="Home-img" alt="Cinque Terre" />
 
     </div>
-    <div class="icons">
+    <div className="icons">
      <img src={contactusIcon} className="Home-img" alt="Cinque Terre" />
      <img src={whoareWeIcon} className="Home-img" alt="Cinque Terre" />
      <img src={infoIcon} className="Home-img" alt="Cinque Terre" />

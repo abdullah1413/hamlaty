@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import background from './images/background.jpg';
-// import background from './images/background.jpg';
+import qrtest from './images/qrcodeImg.png';
 import axios from 'axios';
+import signup from './images/print.jpg';
 
 export default class QR extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -11,36 +12,24 @@ export default class QR extends Component {
     }
   }
 
-  fillValue = (field, e) => {
-    this.setState({
-      [field]: e.target.value
-    })
-  }
-
-  handleSubmit = (e) => {
-    e.preventDefault()
-    console.log('====================================');
-    console.log(this.state.firstName);
-    console.log('====================================');
-    axios.get('')
-      .then(res => {
-        // handle success
-        console.log(res);
-      })
-      .catch(error => {
-        // handle error
-        console.log(error);
-      })
-  }
+  // handleSubmit = (e) => {
+  //   axios.get('')
+  //     .then(res => {
+  //       // handle success
+  //       console.log(res);
+  //     })
+  //     .catch(error => {
+  //       // handle error
+  //       console.log(error);
+  //     })
+  // }
   render() {
-    const { firstName } = this.state;
     return (
-      <div className="qr-height">
-        <form onSubmit={this.handleSubmit}>
-          <div className="form-group">
-            <input value={firstName} onChange={this.fillValue.bind(this, 'firstName')} type="text" className="form-control" placeholder="الاسم الاول" />
-          </div>
-        </form>
+      <div className="QR-container qr-height backgroundImage">
+        <div className="QR">
+          <img src={qrtest} alt=""/>
+          <img onClick={this.handleSumbit} className="QR-img" src={signup} alt="" />
+        </div>
       </div>
 
     )
